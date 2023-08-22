@@ -1,0 +1,21 @@
+.container {
+  background-color: #051b38;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  padding: 0 20vw;
+  width: 100%;
+}

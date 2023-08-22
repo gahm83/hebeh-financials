@@ -1,0 +1,100 @@
+.backdrop,
+.backdropActive {
+  background-color: #051b38;
+  opacity: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  pointer-events: none;
+  z-index: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.backdropActive {
+  opacity: 0.3;
+  pointer-events: auto;
+}
+
+.toggler {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  top: 32px;
+  right: 32px;
+  z-index: 9;
+}
+
+.iconClose,
+.iconMenu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  width: 32px;
+}
+
+  .iconMenu {
+    height: 3px;
+  }
+
+  .iconMenu,
+  .iconMenu:before,
+  .iconMenu:after {
+    background-color: #051b38;
+  }
+
+  .iconClose:before,
+  .iconClose:after {
+    background-color: #fafafa;
+  }
+
+  .iconClose:before,
+  .iconClose:after,
+  .iconMenu:before,
+  .iconMenu:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 32px;
+    position: absolute;
+  }
+
+  .iconClose:before { transform: rotate(45deg); }
+  .iconClose:after {  transform: rotate(-45deg); }
+
+  .iconMenu:before {  transform: translateY(-9px); }
+  .iconMenu:after { transform: translateY(9px); }
+
+
+.drawer,
+.drawerIsOpen {
+  background-color: #051b38;
+  display: flex;
+  flex-direction: column;
+  padding: 15vw 5vw 0;
+  height: 100vh;
+  width: 40vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+  transform: translateX(100%);
+  z-index: 8;
+}
+
+.drawerIsOpen {
+  box-shadow: 0 0 5vw rgba(0,0,0,0.75);  
+  transform: translateX(0);
+}
+
+.drawer a,
+.drawerIsOpen a {
+  display: block;
+  color: #fafafa;
+  margin: 9px;
+}

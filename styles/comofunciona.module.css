@@ -1,0 +1,14 @@
+.container {
+  background-image: url('../images/como-funcionan-nuestros-servicios.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container > div {
+  background-color: rgba(8,29,55,0.8);
+  color: #ffffff;
+  padding: 5vw ;
+  width: 50vw; 
+}
