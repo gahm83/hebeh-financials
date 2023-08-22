@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './FlipCard.module.css';
+import styles from './flipcard.module.css';
 import HebehIcon from "../../images/icono-hebeh.svg";
 import HebehIconWhite from "../../images/icono-hebeh-bco.svg";
 

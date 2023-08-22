@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Accordion from '../components/Accordion/Accordion';
-import styles from '../styles/HowItworks.module.css';
+import Accordion from '../components/accordion/accordion';
+import styles from '../styles/comofunciona.module.css';
 
 export default function Servicio() {
 

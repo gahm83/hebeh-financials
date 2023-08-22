@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AccordionItem } from './AccordionItem';
+import { AccordionItem } from './accordionItem';
 
 const Accordion = (props) => {
 

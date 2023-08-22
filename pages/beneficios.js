@@ -1,5 +1,5 @@
 import FlipCard from '../components/flipcard/flipcard';
-import styles from '../styles/Beneficios.module.css';
+import styles from '../styles/beneficios.module.css';
 
 export default function Servicio() {
 
