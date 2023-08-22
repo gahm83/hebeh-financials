@@ -1,4 +1,4 @@
-import SlideDrawer from './slidedrawer/slidedrawer';
+import SlideDrawer from "./slidedrawer/slidedrawer";
 // import Footer from './footer'
 
 export default function Layout({ children, props }) {
